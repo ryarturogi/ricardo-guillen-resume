@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Styling for the Ace Editor scrollbar */
+.ace_editor ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.ace_editor ::-webkit-scrollbar-track {
+  background: #000b0b;
+}
+
+.ace_editor ::-webkit-scrollbar-thumb {
+  background-color: #023535;
+  border-radius: 8px;
+}
+
+.ace_editor ::-webkit-scrollbar-thumb:hover {
+  background-color: #005044;
+}
